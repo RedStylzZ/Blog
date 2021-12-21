@@ -21,12 +21,12 @@ img {
     gap: 1rem;
     align-items: stretch;
     width: 50%;
+    min-width: 50rem;
 }
 
 .article {
     display: flex;
     justify-content: space-between;
-    min-width: 50rem;
     background-color: #1c1e20;
 }
 
