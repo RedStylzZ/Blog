@@ -21,9 +21,7 @@ const mapToName = human => human.name
 /*function createObjects(human) {
     return {name: human.name, origin: human.origin}
 }*/
-const createObjects = human => {
-    return {name: human.name, origin: human.origin.name}
-}
+const createObjects = human => ({name: human.name, origin: human.origin.name})
 
 async function mapPeople(func) {
     return (await fetchPeople()).filter(hasState("Alive")).map(func)
