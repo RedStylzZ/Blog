@@ -6,7 +6,7 @@ async function fetchPeople() {
 
 /*
 function hasState(status) {
-    function isAlive(data) {
+    return function (data) {
         return data.status === status;
     }
 }
